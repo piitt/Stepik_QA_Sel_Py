@@ -1,1 +1,2 @@
-# Stepik_QA_Sel_Py
+# stepik.org
+## Автоматизация тестирования с помощью Selenium и Python
