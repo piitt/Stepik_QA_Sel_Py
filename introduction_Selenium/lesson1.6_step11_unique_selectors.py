@@ -12,7 +12,7 @@ try:
     input1 = browser.find_element_by_xpath("//input[@class='form-control first' and @required]")
     input1.send_keys("Alexandro")
     # last name
-    input2 = browser.find_element_by_css_selector("input[placeholder='Input your last name']")
+    input2 = browser.find_element_by_xpath("//input[@class='form-control second' and @required]")
     input2.send_keys("Plaha")
     # email
     input3 = browser.find_element_by_class_name("third")
